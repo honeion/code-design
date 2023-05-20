@@ -14,7 +14,7 @@ import javax.validation.constraints.Email;
 @ToString
 @NoArgsConstructor
 public class Member {
-
+ 
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
 
